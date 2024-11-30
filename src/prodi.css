@@ -1,0 +1,74 @@
+.hero {
+  background: url(../img/maps.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero2 {
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(9, 47, 51, 0.6),
+    rgba(8, 29, 31, 0.2)
+  );
+}
+
+.daftarJudul {
+  background: url(../img/images.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.daftarJudul2 {
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(9, 47, 51, 0.6),
+    rgba(8, 29, 31, 0.2)
+  );
+}
+
+.about {
+  background: url(../img/about.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about2 {
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(9, 47, 51, 0.6),
+    rgba(8, 29, 31, 0.2)
+  );
+}
+
+.asramaJudulA {
+  background: url(../img/images.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.asramaJudulA2 {
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(9, 47, 51, 0.6),
+    rgba(8, 29, 31, 0.2)
+  );
+}
+
+.fasilitasJudul {
+  background: url(../img/fasilitasbus.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.fasilitasJudul2 {
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(9, 47, 51, 0.6),
+    rgba(8, 29, 31, 0.2)
+  );
+}

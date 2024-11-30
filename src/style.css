@@ -1,0 +1,90 @@
+.heroSection {
+  background: url(../img/moscow-state-university-msu.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.heroSection2 {
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(9, 47, 51, 0.6),
+    rgba(8, 29, 31, 0.2)
+  );
+}
+
+.bayang {
+  text-shadow: 1px 3px 1px black;
+}
+.bayang2 {
+  text-shadow: 1px 2px 1px gray;
+}
+.bayang3 {
+  text-shadow: 2px 5px 2px black;
+}
+
+.hoveran:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+.quotes {
+  background: url(../img/quotes.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.quotes2 {
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(0, 83, 92, 0.7),
+    rgba(18, 59, 63, 0.3)
+  );
+}
+
+.nav {
+  transform: translateY(-5rem);
+  animation: navanima 300ms forwards;
+  animation-delay: 200ms;
+}
+
+@keyframes navanima {
+  to {
+    transform: translateY(0);
+  }
+}
+
+.map {
+  background: url(../img/map.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.mapIsi {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 500px) {
+  .navbarIsi {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 12rem;
+    height: 100vh;
+    padding: 15px;
+    background-color: rgba(148, 163, 184, 0.8);
+    transition: 300ms;
+  }
+  .navIcon {
+    opacity: 1;
+  }
+
+  .navbarIsi a {
+    display: block;
+    padding: 1rem 0;
+  }
+
+  .navbarIsi.active {
+    right: 0;
+  }
+}
